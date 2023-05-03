@@ -24,6 +24,7 @@ def index():
     return render_template("index.html", result=result)
 
 
+# few-shot learning
 def generate_prompt(animal):
     return """Suggest three names for an animal that is a superhero.
 
